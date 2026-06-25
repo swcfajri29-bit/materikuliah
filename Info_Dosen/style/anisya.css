@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    animation: fadeIn 0.1s ease-in-out;
+    background-color: #2d323f;
+}
+
+#frame {
+    width: 1440px;
+    height: 1224px;
+    background-color: #FBFAFA;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header {
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+    width: 1440px;
+    height: 144px;
+    background-color: #063970;
+}
+
+.header p {
+    color: #F0B907;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 0px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    margin-left: 34px;
+    border-radius: 100%;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.garis {
+    width: 3px;
+    height: 113px;
+    background-color: #F0B907;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.nav1, .nav2, .nav3, .nav4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 152px;
+    height: 52px;
+}
+.nav1 {  
+    margin-left: 42px;
+    background-color: #ffffff;
+}
+.nav1 p {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.nav3 {  
+    background-color: #615F5F;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 12px;
+
+}
+
+.nav3 p {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.nav2, .nav4 {
+    margin-left: 12px;
+    background-color: #ffffff;
+}
+
+.nav2 p, .nav4 p {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.nama {
+    margin-left: 44px;
+    justify-content: center;
+    text-align: center;
+    background-color: #063970;
+}
+.nama h2 {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+.nama p {
+    color: #F0B907;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.header img{
+    margin-right: 21px;
+    margin-left: auto;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+
+#tengah {
+    width: 1440px;
+    height: 780px;
+    background-color: #FBFAFA;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0%;
+}
+
+#tengah h2{
+    margin-top: 40px;
+    margin-left: 70px;
+    text-align: left;
+    font-size: 48px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+
+.garis2 {
+    width: 1299px;
+    height: 2px;
+    background-color: #AAA8A8;
+    margin: auto;
+    margin-top: 19px;
+    margin-bottom: auto;
+}
+
+.bungkus_email_profil{
+    display: flex;
+}
+.bungkuspenelitian{
+    width: 344px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.bungkuspenelitian img{
+    margin-right: 15px;
+    margin-left:0%;
+}
+.email_penelitian{
+    margin-top: 28px;
+    margin-left: 70px;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+.profil_dosen, .profil_dosen img{
+    border-radius: 5px;
+    width: 177px;
+    height: 177px;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 30px;
+    background-color: #615F5F;
+}
+.profil_dosen img{
+    border-radius: 5px;
+    width: 177px;
+    height: 177px;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 0px;
+    background-color: #615F5F;
+}
+
+.tengah1 h3, .tengah1 p, .tengah1 ul{
+    margin-left: 70px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 1440px;
+    height: auto;               
+    padding: 40px 0;
+    background-color: #063970;
+    margin-top: 35px;
+}
+.f1{
+    margin-right: 141px;
+}
+
+.footer p{
+   
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sosmed{
+    background-color: #063970;
+    display: flex;
+    margin-left: 141px;
+}
+.ig, .x, .f, .yt, .tt{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 51px;
+    margin-left: 0px;
+    margin-top:0px ;
+    margin-right: auto;
+}
+.kopi{
+    background-color: #011D3B;
+    width: 1440px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kopi p{
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
